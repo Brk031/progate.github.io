@@ -1,0 +1,66 @@
+@media screen and (max-width: 1000px) {
+    .header-logo{
+        width: 100%;
+        text-align: center;
+    }
+    .header .topnav{
+        width: 100%;
+        margin: 0;
+    }
+    .header .topnav ul{
+        text-align: center;
+        margin: auto;
+        line-height: 20px;
+    }
+    .header .topnav ul li{
+        display: inline-block;
+        float: none;
+    }
+    .topnav a{
+        padding: 12px 15px;
+    }
+    .top{
+        width: 100%;
+        text-align: center;
+
+    }
+    .top h1{
+        font-size: 50px;
+        letter-spacing: 10px;
+        margin-bottom: 40px;
+        
+    }
+    .top span{
+        font-size: 50px;
+        letter-spacing: 10px;
+        top: -25px;
+    }
+    .pr-nasi{
+        width: 100%;
+        height: auto;
+    }
+
+    .produk{
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .menu{
+        padding: 0;
+    }
+    
+    footer{
+        text-align: center;
+        margin: auto;
+    }
+
+    .btn-signup{
+        margin: 0 auto;
+    }
+    
+
+}
