@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Avenir Next";
+    background-color: #001415ff;
+    width: 100%;
+  }
+  
+  li{
+    list-style: none;
+}
+
+  header {
+    background: rgba(2, 95, 33, 0.8);
+    margin: auto;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #0a3d62;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 40px;
+    font-family: 'cursive';
+    color: white;
+    font-weight: 800;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+  }
+  .header-logo a{
+    text-align: center;
+  }
+ header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .topnav{
+    float: right;
+}
+  header ul li{
+      float: left;
+  }
+  .topnav a {
+   display: block;
+    color: black;
+    text-align: center;
+    padding: 24px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: rgb(29, 138, 47);
+    color: black;
+  }
+
+  .main{
+    background-color: rgb(19, 40, 41);
+    text-align: center;
+    color: black;
+    padding: 50px 50px;
+}
+.main h2{
+    color:#27ae60;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "caviar";
+}
+
+.top {
+    margin: 20px 0px;
+}
+.top h1 {
+    font-family: "bahagia";
+    color:#d35400;
+    letter-spacing: 0px;
+    font-size: 100px;
+    padding-top: 50px;
+    font-weight: normal;
+    animation: fideIn 3s ease;
+}
+span {
+    font-family:"ELEPHANT";
+    color: #27ae60;
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-weight: normal;
+    position: relative;
+    top: -50px;
+}
+.top p {
+    font-family:"arial";
+    font-size: 15px;
+    position:relative;
+    top: -100px;
+    color: white;
+}
+
+
+.produk {
+    
+    background-color: white;
+    float: left;
+    width: 25%;
+    margin: 10px 10px 10px 10px;
+    
+}
+.menu {
+    padding-left:17.5%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align:center;
+}
+.main img{
+    margin-top: 50px;
+    
+    
+}
+.menu img{
+    margin-top: 0%;
+}
+
+.main h2{
+    text-align: center;
+    font-size: 40px;
+    color:  white;
+}
+
+.pr-nasi{
+    margin-bottom: 50px;
+    width: 100%;
+    height: 650px;
+    border-bottom: 3px solid white;
+}
+.produk p {
+    margin-top: 20px;
+    font-size: 14px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    text-align: left;
+    font-family: sans-serif;
+    color : black;
+}
+.read {
+    color: blue;
+    font-size: 16px;
+    text-align: left;
+    float: left;
+    margin: 0px 0px 10px 10px;
+    border-bottom: 2px solid blue;
+}
+.title-menu{
+    margin-top: 20px;
+    font-size: 22px;
+    
+    font-family: sans-serif;
+    color:rgb(23, 9, 9);
+}
+.pr-hambur{
+    
+    width: 100%;
+    margin-bottom:5px;
+}
+
+.btn-signup {
+    background-color:#2ecc71;
+    display: inline-block;
+    padding: 12px 60px;
+    cursor:pointer;
+    margin: 10px;
+    box-shadow:0 7px #27ae60;
+    color: #ecf0f1;
+}
+.btn-signup:active {
+    position:relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+}
+
+.social-links ul{
+    padding-top: 10px;
+    display: flex;
+    width: 20%;
+    height: 30px;
+    margin: auto;
+}
+.social-links ul li{
+    margin: 0 auto;
+}
+
+.social-item{
+    list-style: none;
+}
+
+.social-links a{
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #6ccc6c; 
+}
+
+.quick-links{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.quick-links ul{
+    display: flex;
+    margin: auto;
+}
+
+.quick-links ul li{
+    margin: 0 auto;
+}
+
+.quick-links a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.outer-footer{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #3f3f3f;
+
+}
+
+@keyframes fideIn {
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(-100px);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
